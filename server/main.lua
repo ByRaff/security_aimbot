@@ -58,7 +58,7 @@ RegisterNetEvent('bb_executediesencommandundbekommedeintraumauto:byraffgönnt', 
         if not Cooldown[source] then
             Cooldown[source] = true
             if GetPlayerName(target) ~= nil then
-                Log(source, '**Anti-Aim**', 'Der Spieler '..GetPlayerName(source)..' **Aim Tracked**: '..GetPlayerName(target)..' Auffällig!', 'https://discord.com/api/webhooks/1240762396570550302/P63fBZZioqX-iRhLrE322j4lJhqNZmUjfxMLxw23hSwOPar_Po0TEbxulmocYGaxKLC8')
+                Log(source, '**Anti-Aim**', 'Der Spieler '..GetPlayerName(source)..' **Aim Tracked**: '..GetPlayerName(target)..' Auffällig!', 'YOURWEBHOOK')
             end
         end
     end
